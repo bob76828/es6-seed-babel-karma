@@ -1,0 +1,32 @@
+{
+  "name": "simple-es6-seed",
+  "version": "1.1.2",
+  "description": "example seed for ES6 project, using babel, jasmine and karma (unit testing + code coverage).",
+  "author": "Xador <contact@xador.fr>",
+  "devDependencies": {
+    "isparta": "^3.0.3",
+    "istanbul": "gotwarlost/istanbul.git#source-map",
+    "jspm": "^0.15.6",
+    "karma": "^0.13.2",
+    "karma-babel-preprocessor": "^5.2.1",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-coverage": "douglasduteil/karma-coverage#next",
+    "karma-jasmine": "^0.3.6",
+    "karma-jspm": "^1.1.5",
+    "karma-sourcemap-loader": "^0.3.5",
+    "karma-verbose-reporter": "0.0.3"
+  },
+  "dependencies": {},
+  "jspm": {
+    "configFile": "system.config.js",
+    "dependencies": {},
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  }
+}
